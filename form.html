@@ -2,10 +2,22 @@
 <html>
 <head>
     <title>Login</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: burlywood;
+            color: rgb(22, 105, 77);
+        }
+        input{
+            padding: 2px;
+            background-color: rgba(187, 187, 146, 0.562);
+        }
+    </style>
 </head>
 <body>
-<div style="display: flex;align-items: center;justify-content: center;height: 100vh;">
-    <form action="/" method="get" style="display: flex; flex-direction: column;gap: 10px;">
+<div style="display: flex;align-items: center;justify-content: center;height: 90vh;">
+    <form action="/" method="get" style="display: flex; flex-direction: column;border: 7px solid rgb(179, 132, 71); padding: 40px; gap: 2px;">
+        <h2>Login</h2>
         <label for="user-name">Name </label>
         <input type="text" id="user-name">
         <label for="passwd">Password</label>
